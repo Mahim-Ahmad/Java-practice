@@ -11,6 +11,8 @@ public class variable {
         System.out.println("Character: " + myLetter);
         System.out.println("Boolean: " + myBool);
         System.out.println("String: " + myText);
+
+        System.out.printf("Integer: %d\n, Float: %f\n, Character: %c\n, Boolean: %b\n, String: %s", myNum, myFloatNum, myLetter, myBool, myText);
     }
     
 }
